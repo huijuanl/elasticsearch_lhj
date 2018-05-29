@@ -33,14 +33,19 @@ elasticesearch集群配置(以一个集群中有三个节点为例)
  discovery.zen.ping_timeout:
  client.transport.ping_timeout:
  discovery.zen.minimum_master_nodes: 2 
-# es官方认为这个discovery.zen.minimum_master_nodes的值应该是(总共的节点数/2+1),比如我们这里是3个节点，那么就是3/2+1=2
+ (es官方认为这个discovery.zen.minimum_master_nodes的值应该是(总共的节点数/2+1),比如我们这里是3个节点，那么就是3/2+1=2)
  discovery.zen.ping.unicast.hosts:["hostip1:transport.tcp.port","hostip2:transport.tcp.port",...]
-# discovery.zen.ping.unicast.hosts: ["127.0.0.1:9202", "127.0.0.1:9302","127.0.0.1:9402"]
+ (discovery.zen.ping.unicast.hosts: ["127.0.0.1:9202", "127.0.0.1:9302","127.0.0.1:9402"])
  http.cors.enabled:
  http.cors.allow-origin：
 
  具体设置请参考esnodes/目录下各个节点的设置
-
+3.将es节点启动时所占用的jvm内存重新设置，默认的2g太大，在$ES_HOME/config/jvm.options中修改-Xms和-Xmx：
+设置为:
+```
+-Xms512m
+-Xmx512m
+```
 
 head配置修改
 --------------------
