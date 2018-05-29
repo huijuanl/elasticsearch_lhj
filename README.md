@@ -5,9 +5,12 @@ this is my es_cluster projects.
 head插件安装(head运行依赖于nodejs,npm和grunt)
 ------------------
 
-在5.x版本中head不是在es中默认安装，而是作为一个插件，head需要去官网下载: https://github.com/mobz/elasticsearch-head.安装步骤请参考https://blog.csdn.net/LLF_1241352445/article/details/77800046
+在5.x版本中head不是在es中默认安装，而是作为一个插件，head需要去官网下载: https://github.com/mobz/elasticsearch-head.
+
+安装步骤请参考https://blog.csdn.net/LLF_1241352445/article/details/77800046
 
 head的安装还依赖nodejs和npm,grunt，安装后用nodejs -v,npm-v和grunt -version来验证安装成功
+
 (命令grunt -version回车之后要出现
 
 grunt-cli 版本号
