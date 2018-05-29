@@ -26,23 +26,39 @@ elasticesearch集群配置(以一个集群中有三个节点为例)
 2.修改每文件夹中节点的配置，在$ES_HOME/config/elasticsearch.yml中修改，如:elasticsearch5.4.1/config/elasticsearch.yml
 
  其中主要设置以下几个参数:
+ 
  cluster.name: 集群名（同一集群下的节点中的cluster.name必须相同）
+ 
  node.name: 节点名(唯一ID)
+ 
  node.master: true
+ 
  node.data: true(一般为true，表示索引分片可以分配到该节点上)
+ 
  http.port: 端口号(如9201,可用于http网页显示)
+ 
  transport.tcp.port:端口号(如 9202,这个的设置是节点之间互相ping通互相发现的前提)
+ 
  discovery.zen.ping_timeout:
+ 
  client.transport.ping_timeout:
+ 
  discovery.zen.minimum_master_nodes: 2 
+ 
  (es官方认为这个discovery.zen.minimum_master_nodes的值应该是(总共的节点数/2+1),比如我们这里是3个节点，那么就是3/2+1=2)
+ 
  discovery.zen.ping.unicast.hosts:["hostip1:transport.tcp.port","hostip2:transport.tcp.port",...]
+ 
  (discovery.zen.ping.unicast.hosts: ["127.0.0.1:9202", "127.0.0.1:9302","127.0.0.1:9402"])
+ 
  http.cors.enabled:
+ 
  http.cors.allow-origin：
 
  具体设置请参考esnodes/目录下各个节点的设置
+
 3.将es节点启动时所占用的jvm内存重新设置，默认的2g太大，在$ES_HOME/config/jvm.options中修改-Xms和-Xmx：
+
 设置为:
 ```
 -Xms512m
