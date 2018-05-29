@@ -1,7 +1,6 @@
 this is my es_cluster projects.
 
-所用的elasticsearch版本为5.4.1，es官网中可下载,或者该目录下的es zip包也可解压之后直接使用.
-
+所用的elasticsearch版本为5.4.1，es官网中可下载es zip包也可解压之后直接使用.
 
 head插件安装(head运行依赖于nodejs,npm和grunt)
 ------------------
