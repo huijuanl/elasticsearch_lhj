@@ -1,0 +1,136 @@
+[2018-05-27T11:02:43,795][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-27T11:02:43,948][INFO ][o.e.e.NodeEnvironment    ] [IFMDR1X] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [7.1gb], net total_space [15.6gb], spins? [possibly], types [ext4]
+[2018-05-27T11:02:43,948][INFO ][o.e.e.NodeEnvironment    ] [IFMDR1X] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-27T11:02:43,949][INFO ][o.e.n.Node               ] node name [IFMDR1X] derived from node ID [IFMDR1XHSLCLwCVZ28fnvw]; set [node.name] to override
+[2018-05-27T11:02:43,949][INFO ][o.e.n.Node               ] version[5.4.1], pid[3192], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.4.0-57-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-05-27T11:02:43,949][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/lihuijuan114/elasticsearch/elasticsearch-5.4.1]
+[2018-05-27T11:02:44,973][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [aggs-matrix-stats]
+[2018-05-27T11:02:44,973][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [ingest-common]
+[2018-05-27T11:02:44,973][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-expression]
+[2018-05-27T11:02:44,973][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-groovy]
+[2018-05-27T11:02:44,973][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-mustache]
+[2018-05-27T11:02:44,974][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-painless]
+[2018-05-27T11:02:44,974][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [percolator]
+[2018-05-27T11:02:44,974][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [reindex]
+[2018-05-27T11:02:44,974][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [transport-netty3]
+[2018-05-27T11:02:44,975][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [transport-netty4]
+[2018-05-27T11:02:44,976][INFO ][o.e.p.PluginsService     ] [IFMDR1X] no plugins loaded
+[2018-05-27T11:02:46,738][INFO ][o.e.d.DiscoveryModule    ] [IFMDR1X] using discovery type [zen]
+[2018-05-27T11:02:47,402][INFO ][o.e.n.Node               ] initialized
+[2018-05-27T11:02:47,402][INFO ][o.e.n.Node               ] [IFMDR1X] starting ...
+[2018-05-27T11:02:47,628][INFO ][o.e.t.TransportService   ] [IFMDR1X] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-05-27T11:02:47,635][WARN ][o.e.b.BootstrapChecks    ] [IFMDR1X] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-27T11:02:47,635][WARN ][o.e.b.BootstrapChecks    ] [IFMDR1X] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-27T11:02:50,705][INFO ][o.e.c.s.ClusterService   ] [IFMDR1X] new_master {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-27T11:02:50,734][INFO ][o.e.h.n.Netty4HttpServerTransport] [IFMDR1X] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-05-27T11:02:50,738][INFO ][o.e.n.Node               ] [IFMDR1X] started
+[2018-05-27T11:02:50,746][INFO ][o.e.g.GatewayService     ] [IFMDR1X] recovered [0] indices into cluster_state
+[2018-05-27T12:48:30,225][INFO ][o.e.c.s.ClusterService   ] [IFMDR1X] added {{u7vd_cK}{u7vd_cKcTg2u2rVivnu0hw}{xwxAlT59SxyKvAKf-GBLHw}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-node-join[{u7vd_cK}{u7vd_cKcTg2u2rVivnu0hw}{xwxAlT59SxyKvAKf-GBLHw}{127.0.0.1}{127.0.0.1:9301}]
+[2018-05-27T12:48:30,552][WARN ][o.e.d.z.ElectMasterService] [IFMDR1X] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [2])
+[2018-05-27T12:58:20,128][INFO ][o.e.n.Node               ] [IFMDR1X] stopping ...
+[2018-05-27T12:58:20,662][INFO ][o.e.n.Node               ] [IFMDR1X] stopped
+[2018-05-27T12:58:20,663][INFO ][o.e.n.Node               ] [IFMDR1X] closing ...
+[2018-05-27T12:58:20,894][INFO ][o.e.n.Node               ] [IFMDR1X] closed
+[2018-05-27T12:59:24,553][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-27T12:59:24,833][INFO ][o.e.e.NodeEnvironment    ] [w77UquM] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [7gb], net total_space [15.6gb], spins? [possibly], types [ext4]
+[2018-05-27T12:59:24,834][INFO ][o.e.e.NodeEnvironment    ] [w77UquM] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-27T12:59:24,837][INFO ][o.e.n.Node               ] node name [w77UquM] derived from node ID [w77UquM4T1qm7bfrLF9w_A]; set [node.name] to override
+[2018-05-27T12:59:24,837][INFO ][o.e.n.Node               ] version[5.4.1], pid[4153], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.4.0-57-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-05-27T12:59:24,837][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/lihuijuan114/elasticsearch/elasticsearch-5.4.1]
+[2018-05-27T12:59:29,309][INFO ][o.e.p.PluginsService     ] [w77UquM] loaded module [aggs-matrix-stats]
+[2018-05-27T12:59:29,310][INFO ][o.e.p.PluginsService     ] [w77UquM] loaded module [ingest-common]
+[2018-05-27T12:59:29,310][INFO ][o.e.p.PluginsService     ] [w77UquM] loaded module [lang-expression]
+[2018-05-27T12:59:29,310][INFO ][o.e.p.PluginsService     ] [w77UquM] loaded module [lang-groovy]
+[2018-05-27T12:59:29,310][INFO ][o.e.p.PluginsService     ] [w77UquM] loaded module [lang-mustache]
+[2018-05-27T12:59:29,310][INFO ][o.e.p.PluginsService     ] [w77UquM] loaded module [lang-painless]
+[2018-05-27T12:59:29,310][INFO ][o.e.p.PluginsService     ] [w77UquM] loaded module [percolator]
+[2018-05-27T12:59:29,310][INFO ][o.e.p.PluginsService     ] [w77UquM] loaded module [reindex]
+[2018-05-27T12:59:29,310][INFO ][o.e.p.PluginsService     ] [w77UquM] loaded module [transport-netty3]
+[2018-05-27T12:59:29,311][INFO ][o.e.p.PluginsService     ] [w77UquM] loaded module [transport-netty4]
+[2018-05-27T12:59:29,311][INFO ][o.e.p.PluginsService     ] [w77UquM] no plugins loaded
+[2018-05-27T12:59:33,090][INFO ][o.e.d.DiscoveryModule    ] [w77UquM] using discovery type [zen]
+[2018-05-27T12:59:33,738][INFO ][o.e.n.Node               ] initialized
+[2018-05-27T12:59:33,738][INFO ][o.e.n.Node               ] [w77UquM] starting ...
+[2018-05-27T12:59:33,953][INFO ][o.e.t.TransportService   ] [w77UquM] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-05-27T12:59:33,961][WARN ][o.e.b.BootstrapChecks    ] [w77UquM] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-27T12:59:33,961][WARN ][o.e.b.BootstrapChecks    ] [w77UquM] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-27T12:59:34,771][WARN ][o.e.m.j.JvmGcMonitorService] [w77UquM] [gc][1] overhead, spent [541ms] collecting in the last [1s]
+[2018-05-27T12:59:37,641][WARN ][o.e.d.z.ZenDiscovery     ] [w77UquM] failed to connect to master [{u7vd_cK}{u7vd_cKcTg2u2rVivnu0hw}{xwxAlT59SxyKvAKf-GBLHw}{127.0.0.1}{127.0.0.1:9301}], retrying...
+org.elasticsearch.transport.ConnectTransportException: [u7vd_cK][127.0.0.1:9301] connect_timeout[30s]
+	at org.elasticsearch.transport.netty4.Netty4Transport.connectToChannels(Netty4Transport.java:360) ~[?:?]
+	at org.elasticsearch.transport.TcpTransport.openConnection(TcpTransport.java:534) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.TcpTransport.connectToNode(TcpTransport.java:473) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:315) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:302) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.discovery.zen.ZenDiscovery.joinElectedMaster(ZenDiscovery.java:468) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.discovery.zen.ZenDiscovery.innerJoinCluster(ZenDiscovery.java:420) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.discovery.zen.ZenDiscovery.access$4100(ZenDiscovery.java:83) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.discovery.zen.ZenDiscovery$JoinThreadControl$1.run(ZenDiscovery.java:1197) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:569) [elasticsearch-5.4.1.jar:5.4.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_171]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: 拒绝连接: 127.0.0.1/127.0.0.1:9301
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:352) ~[?:?]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:632) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[?:?]
+	... 1 more
+Caused by: java.net.ConnectException: 拒绝连接
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:352) ~[?:?]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:632) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[?:?]
+	... 1 more
+[2018-05-27T12:59:40,685][INFO ][o.e.c.s.ClusterService   ] [w77UquM] new_master {w77UquM}{w77UquM4T1qm7bfrLF9w_A}{ZAa6kREuRWmLs732v__rZw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-27T12:59:40,768][INFO ][o.e.h.n.Netty4HttpServerTransport] [w77UquM] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-05-27T12:59:40,783][INFO ][o.e.n.Node               ] [w77UquM] started
+[2018-05-27T12:59:40,784][INFO ][o.e.g.GatewayService     ] [w77UquM] recovered [0] indices into cluster_state
+[2018-05-27T21:04:29,427][WARN ][o.e.m.j.JvmGcMonitorService] [w77UquM] [gc][young][29047][3] duration [4.4s], collections [1]/[5.3s], total [4.4s]/[5.2s], memory [299mb]->[102.8mb]/[1.9gb], all_pools {[young] [256.7mb]->[17.5mb]/[266.2mb]}{[survivor] [33.2mb]->[21.8mb]/[33.2mb]}{[old] [9mb]->[64.3mb]/[1.6gb]}
+[2018-05-27T21:04:29,611][WARN ][o.e.m.j.JvmGcMonitorService] [w77UquM] [gc][29047] overhead, spent [4.4s] collecting in the last [5.3s]
+[2018-05-27T21:09:33,926][INFO ][o.e.n.Node               ] [w77UquM] stopping ...
+[2018-05-27T21:09:34,288][INFO ][o.e.n.Node               ] [w77UquM] stopped
+[2018-05-27T21:09:34,289][INFO ][o.e.n.Node               ] [w77UquM] closing ...
+[2018-05-27T21:09:34,481][INFO ][o.e.n.Node               ] [w77UquM] closed
+[2018-05-27T21:14:38,767][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-27T21:14:39,801][INFO ][o.e.e.NodeEnvironment    ] [oBdBe71] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [7gb], net total_space [15.6gb], spins? [possibly], types [ext4]
+[2018-05-27T21:14:39,802][INFO ][o.e.e.NodeEnvironment    ] [oBdBe71] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-27T21:14:39,804][INFO ][o.e.n.Node               ] node name [oBdBe71] derived from node ID [oBdBe71uRKWL9eHlXd-3ng]; set [node.name] to override
+[2018-05-27T21:14:39,804][INFO ][o.e.n.Node               ] version[5.4.1], pid[4987], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.4.0-57-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-05-27T21:14:39,808][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/lihuijuan114/elasticsearch/elasticsearch-5.4.1]
+[2018-05-27T21:14:46,161][INFO ][o.e.p.PluginsService     ] [oBdBe71] loaded module [aggs-matrix-stats]
+[2018-05-27T21:14:46,162][INFO ][o.e.p.PluginsService     ] [oBdBe71] loaded module [ingest-common]
+[2018-05-27T21:14:46,162][INFO ][o.e.p.PluginsService     ] [oBdBe71] loaded module [lang-expression]
+[2018-05-27T21:14:46,162][INFO ][o.e.p.PluginsService     ] [oBdBe71] loaded module [lang-groovy]
+[2018-05-27T21:14:46,163][INFO ][o.e.p.PluginsService     ] [oBdBe71] loaded module [lang-mustache]
+[2018-05-27T21:14:46,163][INFO ][o.e.p.PluginsService     ] [oBdBe71] loaded module [lang-painless]
+[2018-05-27T21:14:46,163][INFO ][o.e.p.PluginsService     ] [oBdBe71] loaded module [percolator]
+[2018-05-27T21:14:46,164][INFO ][o.e.p.PluginsService     ] [oBdBe71] loaded module [reindex]
+[2018-05-27T21:14:46,164][INFO ][o.e.p.PluginsService     ] [oBdBe71] loaded module [transport-netty3]
+[2018-05-27T21:14:46,164][INFO ][o.e.p.PluginsService     ] [oBdBe71] loaded module [transport-netty4]
+[2018-05-27T21:14:46,165][INFO ][o.e.p.PluginsService     ] [oBdBe71] no plugins loaded
+[2018-05-27T21:14:54,674][INFO ][o.e.d.DiscoveryModule    ] [oBdBe71] using discovery type [zen]
+[2018-05-27T21:14:55,776][INFO ][o.e.n.Node               ] initialized
+[2018-05-27T21:14:55,776][INFO ][o.e.n.Node               ] [oBdBe71] starting ...
+[2018-05-27T21:14:56,275][INFO ][o.e.t.TransportService   ] [oBdBe71] publish_address {127.0.0.1:9302}, bound_addresses {[::1]:9302}, {127.0.0.1:9302}
+[2018-05-27T21:14:56,298][WARN ][o.e.b.BootstrapChecks    ] [oBdBe71] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-27T21:14:56,298][WARN ][o.e.b.BootstrapChecks    ] [oBdBe71] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-27T21:14:56,948][INFO ][o.e.m.j.JvmGcMonitorService] [oBdBe71] [gc][1] overhead, spent [467ms] collecting in the last [1.1s]
+[2018-05-27T21:14:59,552][INFO ][o.e.c.s.ClusterService   ] [oBdBe71] new_master {oBdBe71}{oBdBe71uRKWL9eHlXd-3ng}{ERopVVfnSNaQliCnz9KIoA}{127.0.0.1}{127.0.0.1:9302}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-27T21:15:00,050][INFO ][o.e.h.n.Netty4HttpServerTransport] [oBdBe71] publish_address {127.0.0.1:9201}, bound_addresses {[::1]:9201}, {127.0.0.1:9201}
+[2018-05-27T21:15:00,062][INFO ][o.e.n.Node               ] [oBdBe71] started
+[2018-05-27T21:15:00,501][INFO ][o.e.g.GatewayService     ] [oBdBe71] recovered [0] indices into cluster_state
+[2018-05-27T21:17:01,880][INFO ][o.e.n.Node               ] [oBdBe71] stopping ...
+[2018-05-27T21:17:01,936][INFO ][o.e.n.Node               ] [oBdBe71] stopped
+[2018-05-27T21:17:01,936][INFO ][o.e.n.Node               ] [oBdBe71] closing ...
+[2018-05-27T21:17:01,974][INFO ][o.e.n.Node               ] [oBdBe71] closed

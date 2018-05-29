@@ -1,0 +1,390 @@
+[2018-05-27T11:02:43,795][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-27T11:02:43,948][INFO ][o.e.e.NodeEnvironment    ] [IFMDR1X] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [7.1gb], net total_space [15.6gb], spins? [possibly], types [ext4]
+[2018-05-27T11:02:43,948][INFO ][o.e.e.NodeEnvironment    ] [IFMDR1X] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-27T11:02:43,949][INFO ][o.e.n.Node               ] node name [IFMDR1X] derived from node ID [IFMDR1XHSLCLwCVZ28fnvw]; set [node.name] to override
+[2018-05-27T11:02:43,949][INFO ][o.e.n.Node               ] version[5.4.1], pid[3192], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.4.0-57-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-05-27T11:02:43,949][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/lihuijuan114/elasticsearch/elasticsearch-5.4.1]
+[2018-05-27T11:02:44,973][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [aggs-matrix-stats]
+[2018-05-27T11:02:44,973][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [ingest-common]
+[2018-05-27T11:02:44,973][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-expression]
+[2018-05-27T11:02:44,973][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-groovy]
+[2018-05-27T11:02:44,973][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-mustache]
+[2018-05-27T11:02:44,974][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-painless]
+[2018-05-27T11:02:44,974][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [percolator]
+[2018-05-27T11:02:44,974][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [reindex]
+[2018-05-27T11:02:44,974][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [transport-netty3]
+[2018-05-27T11:02:44,975][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [transport-netty4]
+[2018-05-27T11:02:44,976][INFO ][o.e.p.PluginsService     ] [IFMDR1X] no plugins loaded
+[2018-05-27T11:02:46,738][INFO ][o.e.d.DiscoveryModule    ] [IFMDR1X] using discovery type [zen]
+[2018-05-27T11:02:47,402][INFO ][o.e.n.Node               ] initialized
+[2018-05-27T11:02:47,402][INFO ][o.e.n.Node               ] [IFMDR1X] starting ...
+[2018-05-27T11:02:47,628][INFO ][o.e.t.TransportService   ] [IFMDR1X] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-05-27T11:02:47,635][WARN ][o.e.b.BootstrapChecks    ] [IFMDR1X] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-27T11:02:47,635][WARN ][o.e.b.BootstrapChecks    ] [IFMDR1X] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-27T11:02:50,705][INFO ][o.e.c.s.ClusterService   ] [IFMDR1X] new_master {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-27T11:02:50,734][INFO ][o.e.h.n.Netty4HttpServerTransport] [IFMDR1X] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-05-27T11:02:50,738][INFO ][o.e.n.Node               ] [IFMDR1X] started
+[2018-05-27T11:02:50,746][INFO ][o.e.g.GatewayService     ] [IFMDR1X] recovered [0] indices into cluster_state
+[2018-05-27T12:43:24,238][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-27T12:43:24,627][INFO ][o.e.e.NodeEnvironment    ] [IFMDR1X] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [7gb], net total_space [15.6gb], spins? [possibly], types [ext4]
+[2018-05-27T12:43:24,628][INFO ][o.e.e.NodeEnvironment    ] [IFMDR1X] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-27T12:43:24,629][INFO ][o.e.n.Node               ] node name [IFMDR1X] derived from node ID [IFMDR1XHSLCLwCVZ28fnvw]; set [node.name] to override
+[2018-05-27T12:43:24,630][INFO ][o.e.n.Node               ] version[5.4.1], pid[3647], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.4.0-57-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-05-27T12:43:24,630][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/lihuijuan114/elasticsearch/elasticsearch-5.4.1.2]
+[2018-05-27T12:43:27,338][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [aggs-matrix-stats]
+[2018-05-27T12:43:27,339][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [ingest-common]
+[2018-05-27T12:43:27,339][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-expression]
+[2018-05-27T12:43:27,339][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-groovy]
+[2018-05-27T12:43:27,339][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-mustache]
+[2018-05-27T12:43:27,339][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-painless]
+[2018-05-27T12:43:27,339][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [percolator]
+[2018-05-27T12:43:27,339][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [reindex]
+[2018-05-27T12:43:27,340][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [transport-netty3]
+[2018-05-27T12:43:27,340][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [transport-netty4]
+[2018-05-27T12:43:27,340][INFO ][o.e.p.PluginsService     ] [IFMDR1X] no plugins loaded
+[2018-05-27T12:43:32,449][INFO ][o.e.d.DiscoveryModule    ] [IFMDR1X] using discovery type [zen]
+[2018-05-27T12:43:33,102][INFO ][o.e.n.Node               ] initialized
+[2018-05-27T12:43:33,102][INFO ][o.e.n.Node               ] [IFMDR1X] starting ...
+[2018-05-27T12:43:33,479][INFO ][o.e.t.TransportService   ] [IFMDR1X] publish_address {127.0.0.1:9301}, bound_addresses {[::1]:9301}, {127.0.0.1:9301}
+[2018-05-27T12:43:33,502][WARN ][o.e.b.BootstrapChecks    ] [IFMDR1X] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-27T12:43:33,502][WARN ][o.e.b.BootstrapChecks    ] [IFMDR1X] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-27T12:43:36,642][INFO ][o.e.c.s.ClusterService   ] [IFMDR1X] new_master {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{j-Je0y5CRvmfBGhwpRoOFQ}{127.0.0.1}{127.0.0.1:9301}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-27T12:43:36,838][INFO ][o.e.h.n.Netty4HttpServerTransport] [IFMDR1X] publish_address {127.0.0.1:9201}, bound_addresses {[::1]:9201}, {127.0.0.1:9201}
+[2018-05-27T12:43:37,357][INFO ][o.e.n.Node               ] [IFMDR1X] started
+[2018-05-27T12:43:37,360][INFO ][o.e.g.GatewayService     ] [IFMDR1X] recovered [0] indices into cluster_state
+[2018-05-27T12:46:16,442][INFO ][o.e.n.Node               ] [IFMDR1X] stopping ...
+[2018-05-27T12:46:16,534][INFO ][o.e.n.Node               ] [IFMDR1X] stopped
+[2018-05-27T12:46:16,535][INFO ][o.e.n.Node               ] [IFMDR1X] closing ...
+[2018-05-27T12:46:16,580][INFO ][o.e.n.Node               ] [IFMDR1X] closed
+[2018-05-27T12:46:26,938][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-27T12:46:27,054][INFO ][o.e.e.NodeEnvironment    ] [IFMDR1X] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [7gb], net total_space [15.6gb], spins? [possibly], types [ext4]
+[2018-05-27T12:46:27,055][INFO ][o.e.e.NodeEnvironment    ] [IFMDR1X] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-27T12:46:27,056][INFO ][o.e.n.Node               ] node name [IFMDR1X] derived from node ID [IFMDR1XHSLCLwCVZ28fnvw]; set [node.name] to override
+[2018-05-27T12:46:27,056][INFO ][o.e.n.Node               ] version[5.4.1], pid[3828], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.4.0-57-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-05-27T12:46:27,056][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/lihuijuan114/elasticsearch/elasticsearch-5.4.1.2]
+[2018-05-27T12:46:28,143][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [aggs-matrix-stats]
+[2018-05-27T12:46:28,143][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [ingest-common]
+[2018-05-27T12:46:28,143][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-expression]
+[2018-05-27T12:46:28,144][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-groovy]
+[2018-05-27T12:46:28,144][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-mustache]
+[2018-05-27T12:46:28,144][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [lang-painless]
+[2018-05-27T12:46:28,144][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [percolator]
+[2018-05-27T12:46:28,144][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [reindex]
+[2018-05-27T12:46:28,144][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [transport-netty3]
+[2018-05-27T12:46:28,145][INFO ][o.e.p.PluginsService     ] [IFMDR1X] loaded module [transport-netty4]
+[2018-05-27T12:46:28,145][INFO ][o.e.p.PluginsService     ] [IFMDR1X] no plugins loaded
+[2018-05-27T12:46:30,661][INFO ][o.e.d.DiscoveryModule    ] [IFMDR1X] using discovery type [zen]
+[2018-05-27T12:46:31,631][INFO ][o.e.n.Node               ] initialized
+[2018-05-27T12:46:31,631][INFO ][o.e.n.Node               ] [IFMDR1X] starting ...
+[2018-05-27T12:46:31,815][INFO ][o.e.t.TransportService   ] [IFMDR1X] publish_address {127.0.0.1:9301}, bound_addresses {[::1]:9301}, {127.0.0.1:9301}
+[2018-05-27T12:46:31,822][WARN ][o.e.b.BootstrapChecks    ] [IFMDR1X] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-27T12:46:31,822][WARN ][o.e.b.BootstrapChecks    ] [IFMDR1X] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-27T12:46:36,559][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:46:39,620][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:46:42,653][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:46:45,713][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:46:48,754][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:46:51,781][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:46:54,805][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:46:57,835][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:00,846][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:01,851][WARN ][o.e.n.Node               ] [IFMDR1X] timed out while waiting for initial discovery state - timeout: 30s
+[2018-05-27T12:47:01,951][INFO ][o.e.h.n.Netty4HttpServerTransport] [IFMDR1X] publish_address {127.0.0.1:9201}, bound_addresses {[::1]:9201}, {127.0.0.1:9201}
+[2018-05-27T12:47:01,985][INFO ][o.e.n.Node               ] [IFMDR1X] started
+[2018-05-27T12:47:03,875][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:06,905][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:09,925][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:12,952][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:15,978][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:19,003][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:22,044][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:25,078][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:28,086][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:31,102][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:34,116][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:37,131][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:40,145][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:43,153][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:46,165][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:49,171][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:52,181][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:55,189][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:47:58,213][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:48:01,222][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:48:04,235][INFO ][o.e.d.z.ZenDiscovery     ] [IFMDR1X] failed to send join request to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [RemoteTransportException[[IFMDR1X][127.0.0.1:9300][internal:discovery/zen/join]]; nested: IllegalArgumentException[can't add node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{at_RBlqFSrOYAHQF9HTzAA}{127.0.0.1}{127.0.0.1:9301}, found existing node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} with the same id but is a different node instance]; ]
+[2018-05-27T12:48:05,284][INFO ][o.e.n.Node               ] [IFMDR1X] stopping ...
+[2018-05-27T12:48:05,346][INFO ][o.e.n.Node               ] [IFMDR1X] stopped
+[2018-05-27T12:48:05,347][INFO ][o.e.n.Node               ] [IFMDR1X] closing ...
+[2018-05-27T12:48:05,473][INFO ][o.e.n.Node               ] [IFMDR1X] closed
+[2018-05-27T12:48:22,581][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-27T12:48:22,741][INFO ][o.e.e.NodeEnvironment    ] [u7vd_cK] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [7gb], net total_space [15.6gb], spins? [possibly], types [ext4]
+[2018-05-27T12:48:22,741][INFO ][o.e.e.NodeEnvironment    ] [u7vd_cK] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-27T12:48:22,742][INFO ][o.e.n.Node               ] node name [u7vd_cK] derived from node ID [u7vd_cKcTg2u2rVivnu0hw]; set [node.name] to override
+[2018-05-27T12:48:22,743][INFO ][o.e.n.Node               ] version[5.4.1], pid[3961], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.4.0-57-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-05-27T12:48:22,743][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/lihuijuan114/elasticsearch/elasticsearch-5.4.1.2]
+[2018-05-27T12:48:23,974][INFO ][o.e.p.PluginsService     ] [u7vd_cK] loaded module [aggs-matrix-stats]
+[2018-05-27T12:48:23,975][INFO ][o.e.p.PluginsService     ] [u7vd_cK] loaded module [ingest-common]
+[2018-05-27T12:48:23,975][INFO ][o.e.p.PluginsService     ] [u7vd_cK] loaded module [lang-expression]
+[2018-05-27T12:48:23,975][INFO ][o.e.p.PluginsService     ] [u7vd_cK] loaded module [lang-groovy]
+[2018-05-27T12:48:23,975][INFO ][o.e.p.PluginsService     ] [u7vd_cK] loaded module [lang-mustache]
+[2018-05-27T12:48:23,975][INFO ][o.e.p.PluginsService     ] [u7vd_cK] loaded module [lang-painless]
+[2018-05-27T12:48:23,975][INFO ][o.e.p.PluginsService     ] [u7vd_cK] loaded module [percolator]
+[2018-05-27T12:48:23,976][INFO ][o.e.p.PluginsService     ] [u7vd_cK] loaded module [reindex]
+[2018-05-27T12:48:23,976][INFO ][o.e.p.PluginsService     ] [u7vd_cK] loaded module [transport-netty3]
+[2018-05-27T12:48:23,976][INFO ][o.e.p.PluginsService     ] [u7vd_cK] loaded module [transport-netty4]
+[2018-05-27T12:48:23,977][INFO ][o.e.p.PluginsService     ] [u7vd_cK] no plugins loaded
+[2018-05-27T12:48:25,692][INFO ][o.e.d.DiscoveryModule    ] [u7vd_cK] using discovery type [zen]
+[2018-05-27T12:48:26,235][INFO ][o.e.n.Node               ] initialized
+[2018-05-27T12:48:26,235][INFO ][o.e.n.Node               ] [u7vd_cK] starting ...
+[2018-05-27T12:48:26,540][INFO ][o.e.t.TransportService   ] [u7vd_cK] publish_address {127.0.0.1:9301}, bound_addresses {[::1]:9301}, {127.0.0.1:9301}
+[2018-05-27T12:48:26,546][WARN ][o.e.b.BootstrapChecks    ] [u7vd_cK] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-27T12:48:26,546][WARN ][o.e.b.BootstrapChecks    ] [u7vd_cK] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-27T12:48:30,476][INFO ][o.e.c.s.ClusterService   ] [u7vd_cK] detected_master {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}, added {{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-receive(from master [master {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} committed version [33]])
+[2018-05-27T12:48:30,522][INFO ][o.e.h.n.Netty4HttpServerTransport] [u7vd_cK] publish_address {127.0.0.1:9201}, bound_addresses {[::1]:9201}, {127.0.0.1:9201}
+[2018-05-27T12:48:30,527][INFO ][o.e.n.Node               ] [u7vd_cK] started
+[2018-05-27T12:58:20,435][INFO ][o.e.d.z.ZenDiscovery     ] [u7vd_cK] master_left [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], reason [shut_down]
+[2018-05-27T12:58:20,459][WARN ][o.e.d.z.ZenDiscovery     ] [u7vd_cK] master left (reason = shut_down), current nodes: nodes: 
+   {u7vd_cK}{u7vd_cKcTg2u2rVivnu0hw}{xwxAlT59SxyKvAKf-GBLHw}{127.0.0.1}{127.0.0.1:9301}, local
+   {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}, master
+
+[2018-05-27T12:58:23,488][WARN ][o.e.d.z.ZenDiscovery     ] [u7vd_cK] failed to connect to master [{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}], retrying...
+org.elasticsearch.transport.ConnectTransportException: [IFMDR1X][127.0.0.1:9300] connect_timeout[30s]
+	at org.elasticsearch.transport.netty4.Netty4Transport.connectToChannels(Netty4Transport.java:360) ~[?:?]
+	at org.elasticsearch.transport.TcpTransport.openConnection(TcpTransport.java:534) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.TcpTransport.connectToNode(TcpTransport.java:473) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:315) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:302) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.discovery.zen.ZenDiscovery.joinElectedMaster(ZenDiscovery.java:468) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.discovery.zen.ZenDiscovery.innerJoinCluster(ZenDiscovery.java:420) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.discovery.zen.ZenDiscovery.access$4100(ZenDiscovery.java:83) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.discovery.zen.ZenDiscovery$JoinThreadControl$1.run(ZenDiscovery.java:1197) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:569) [elasticsearch-5.4.1.jar:5.4.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_171]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: 拒绝连接: 127.0.0.1/127.0.0.1:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:352) ~[?:?]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:632) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[?:?]
+	... 1 more
+Caused by: java.net.ConnectException: 拒绝连接
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:352) ~[?:?]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:632) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[?:?]
+	... 1 more
+[2018-05-27T12:58:26,307][WARN ][o.e.c.NodeConnectionsService] [u7vd_cK] failed to connect to node {IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} (tried [1] times)
+org.elasticsearch.transport.ConnectTransportException: [IFMDR1X][127.0.0.1:9300] connect_timeout[30s]
+	at org.elasticsearch.transport.netty4.Netty4Transport.connectToChannels(Netty4Transport.java:360) ~[?:?]
+	at org.elasticsearch.transport.TcpTransport.openConnection(TcpTransport.java:534) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.TcpTransport.connectToNode(TcpTransport.java:473) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:315) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:302) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.cluster.NodeConnectionsService.validateAndConnectIfNeeded(NodeConnectionsService.java:154) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.cluster.NodeConnectionsService$ConnectionChecker.doRun(NodeConnectionsService.java:183) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:638) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-5.4.1.jar:5.4.1]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_171]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: 拒绝连接: 127.0.0.1/127.0.0.1:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:352) ~[?:?]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:632) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[?:?]
+	... 1 more
+Caused by: java.net.ConnectException: 拒绝连接
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:352) ~[?:?]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:632) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysPlain(NioEventLoop.java:544) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:498) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[?:?]
+	... 1 more
+[2018-05-27T12:58:26,637][INFO ][o.e.c.s.ClusterService   ] [u7vd_cK] new_master {u7vd_cK}{u7vd_cKcTg2u2rVivnu0hw}{xwxAlT59SxyKvAKf-GBLHw}{127.0.0.1}{127.0.0.1:9301}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-27T12:58:26,684][INFO ][o.e.c.s.ClusterService   ] [u7vd_cK] removed {{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-node-failed({IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300}), reason(transport disconnected)[{IFMDR1X}{IFMDR1XHSLCLwCVZ28fnvw}{nqCHpuL2SEC7__gbelx6Rw}{127.0.0.1}{127.0.0.1:9300} transport disconnected]
+[2018-05-27T12:59:35,429][INFO ][o.e.n.Node               ] [u7vd_cK] stopping ...
+[2018-05-27T12:59:36,241][INFO ][o.e.n.Node               ] [u7vd_cK] stopped
+[2018-05-27T12:59:36,242][INFO ][o.e.n.Node               ] [u7vd_cK] closing ...
+[2018-05-27T12:59:36,377][INFO ][o.e.n.Node               ] [u7vd_cK] closed
+[2018-05-27T13:02:17,140][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-27T13:02:17,823][INFO ][o.e.e.NodeEnvironment    ] [zoCl7LQ] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [7gb], net total_space [15.6gb], spins? [possibly], types [ext4]
+[2018-05-27T13:02:17,824][INFO ][o.e.e.NodeEnvironment    ] [zoCl7LQ] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-27T13:02:17,826][INFO ][o.e.n.Node               ] node name [zoCl7LQ] derived from node ID [zoCl7LQySEuJQcr4ORFARg]; set [node.name] to override
+[2018-05-27T13:02:17,826][INFO ][o.e.n.Node               ] version[5.4.1], pid[4302], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.4.0-57-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-05-27T13:02:17,826][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/lihuijuan114/elasticsearch/elasticsearch-5.4.1.2]
+[2018-05-27T13:02:21,294][INFO ][o.e.p.PluginsService     ] [zoCl7LQ] loaded module [aggs-matrix-stats]
+[2018-05-27T13:02:21,295][INFO ][o.e.p.PluginsService     ] [zoCl7LQ] loaded module [ingest-common]
+[2018-05-27T13:02:21,295][INFO ][o.e.p.PluginsService     ] [zoCl7LQ] loaded module [lang-expression]
+[2018-05-27T13:02:21,295][INFO ][o.e.p.PluginsService     ] [zoCl7LQ] loaded module [lang-groovy]
+[2018-05-27T13:02:21,295][INFO ][o.e.p.PluginsService     ] [zoCl7LQ] loaded module [lang-mustache]
+[2018-05-27T13:02:21,295][INFO ][o.e.p.PluginsService     ] [zoCl7LQ] loaded module [lang-painless]
+[2018-05-27T13:02:21,296][INFO ][o.e.p.PluginsService     ] [zoCl7LQ] loaded module [percolator]
+[2018-05-27T13:02:21,296][INFO ][o.e.p.PluginsService     ] [zoCl7LQ] loaded module [reindex]
+[2018-05-27T13:02:21,296][INFO ][o.e.p.PluginsService     ] [zoCl7LQ] loaded module [transport-netty3]
+[2018-05-27T13:02:21,296][INFO ][o.e.p.PluginsService     ] [zoCl7LQ] loaded module [transport-netty4]
+[2018-05-27T13:02:21,297][INFO ][o.e.p.PluginsService     ] [zoCl7LQ] no plugins loaded
+[2018-05-27T13:02:28,516][INFO ][o.e.d.DiscoveryModule    ] [zoCl7LQ] using discovery type [zen]
+[2018-05-27T13:02:29,317][INFO ][o.e.n.Node               ] initialized
+[2018-05-27T13:02:29,318][INFO ][o.e.n.Node               ] [zoCl7LQ] starting ...
+[2018-05-27T13:02:29,761][INFO ][o.e.t.TransportService   ] [zoCl7LQ] publish_address {127.0.0.1:9301}, bound_addresses {[::1]:9301}, {127.0.0.1:9301}
+[2018-05-27T13:02:29,776][WARN ][o.e.b.BootstrapChecks    ] [zoCl7LQ] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-27T13:02:29,776][WARN ][o.e.b.BootstrapChecks    ] [zoCl7LQ] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-27T13:02:32,932][INFO ][o.e.c.s.ClusterService   ] [zoCl7LQ] new_master {zoCl7LQ}{zoCl7LQySEuJQcr4ORFARg}{H0eacWGNRWekRCeyv08QNA}{127.0.0.1}{127.0.0.1:9301}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-27T13:02:33,107][INFO ][o.e.g.GatewayService     ] [zoCl7LQ] recovered [0] indices into cluster_state
+[2018-05-27T13:02:33,109][INFO ][o.e.h.n.Netty4HttpServerTransport] [zoCl7LQ] publish_address {127.0.0.1:9201}, bound_addresses {[::1]:9201}, {127.0.0.1:9201}
+[2018-05-27T13:02:33,137][INFO ][o.e.n.Node               ] [zoCl7LQ] started
+[2018-05-27T21:11:42,677][INFO ][o.e.n.Node               ] [zoCl7LQ] stopping ...
+[2018-05-27T21:11:42,808][INFO ][o.e.n.Node               ] [zoCl7LQ] stopped
+[2018-05-27T21:11:42,809][INFO ][o.e.n.Node               ] [zoCl7LQ] closing ...
+[2018-05-27T21:11:42,863][INFO ][o.e.n.Node               ] [zoCl7LQ] closed
+[2018-05-27T21:11:58,469][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-27T21:11:58,593][INFO ][o.e.e.NodeEnvironment    ] [6dgoiBS] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [7gb], net total_space [15.6gb], spins? [possibly], types [ext4]
+[2018-05-27T21:11:58,594][INFO ][o.e.e.NodeEnvironment    ] [6dgoiBS] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-27T21:11:58,595][INFO ][o.e.n.Node               ] node name [6dgoiBS] derived from node ID [6dgoiBSHR32nv-HluWSBPA]; set [node.name] to override
+[2018-05-27T21:11:58,595][INFO ][o.e.n.Node               ] version[5.4.1], pid[4793], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.4.0-57-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-05-27T21:11:58,595][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/lihuijuan114/elasticsearch/elasticsearch-5.4.1.2]
+[2018-05-27T21:11:59,697][INFO ][o.e.p.PluginsService     ] [6dgoiBS] loaded module [aggs-matrix-stats]
+[2018-05-27T21:11:59,697][INFO ][o.e.p.PluginsService     ] [6dgoiBS] loaded module [ingest-common]
+[2018-05-27T21:11:59,697][INFO ][o.e.p.PluginsService     ] [6dgoiBS] loaded module [lang-expression]
+[2018-05-27T21:11:59,697][INFO ][o.e.p.PluginsService     ] [6dgoiBS] loaded module [lang-groovy]
+[2018-05-27T21:11:59,697][INFO ][o.e.p.PluginsService     ] [6dgoiBS] loaded module [lang-mustache]
+[2018-05-27T21:11:59,698][INFO ][o.e.p.PluginsService     ] [6dgoiBS] loaded module [lang-painless]
+[2018-05-27T21:11:59,698][INFO ][o.e.p.PluginsService     ] [6dgoiBS] loaded module [percolator]
+[2018-05-27T21:11:59,698][INFO ][o.e.p.PluginsService     ] [6dgoiBS] loaded module [reindex]
+[2018-05-27T21:11:59,698][INFO ][o.e.p.PluginsService     ] [6dgoiBS] loaded module [transport-netty3]
+[2018-05-27T21:11:59,698][INFO ][o.e.p.PluginsService     ] [6dgoiBS] loaded module [transport-netty4]
+[2018-05-27T21:11:59,699][INFO ][o.e.p.PluginsService     ] [6dgoiBS] no plugins loaded
+[2018-05-27T21:12:01,419][INFO ][o.e.d.DiscoveryModule    ] [6dgoiBS] using discovery type [zen]
+[2018-05-27T21:12:02,034][INFO ][o.e.n.Node               ] initialized
+[2018-05-27T21:12:02,034][INFO ][o.e.n.Node               ] [6dgoiBS] starting ...
+[2018-05-27T21:12:02,233][INFO ][o.e.t.TransportService   ] [6dgoiBS] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-05-27T21:12:02,241][WARN ][o.e.b.BootstrapChecks    ] [6dgoiBS] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-27T21:12:02,241][WARN ][o.e.b.BootstrapChecks    ] [6dgoiBS] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-27T21:12:05,322][INFO ][o.e.c.s.ClusterService   ] [6dgoiBS] new_master {6dgoiBS}{6dgoiBSHR32nv-HluWSBPA}{m2GRjVFfSnelLqd_FJLPew}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-27T21:12:05,397][INFO ][o.e.g.GatewayService     ] [6dgoiBS] recovered [0] indices into cluster_state
+[2018-05-27T21:12:05,396][ERROR][o.e.b.Bootstrap          ] [6dgoiBS] Exception
+org.elasticsearch.http.BindHttpException: Failed to bind to [9300]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.bindAddress(Netty4HttpServerTransport.java:441) ~[?:?]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.createBoundHttpAddress(Netty4HttpServerTransport.java:342) ~[?:?]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.doStart(Netty4HttpServerTransport.java:319) ~[?:?]
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:69) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.node.Node.start(Node.java:737) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.bootstrap.Bootstrap.start(Bootstrap.java:277) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:359) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:123) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:114) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.cli.Command.main(Command.java:88) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) [elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) [elasticsearch-5.4.1.jar:5.4.1]
+Caused by: java.net.BindException: 地址已在使用
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:?]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128) ~[?:?]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:554) ~[?:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1258) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486) ~[?:?]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:980) ~[?:?]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:250) ~[?:?]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:365) ~[?:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:462) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[?:?]
+	at java.lang.Thread.run(Thread.java:748) ~[?:1.8.0_171]
+[2018-05-27T21:12:05,409][WARN ][o.e.b.ElasticsearchUncaughtExceptionHandler] [] uncaught exception in thread [main]
+org.elasticsearch.bootstrap.StartupException: BindHttpException[Failed to bind to [9300]]; nested: BindException[地址已在使用];
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:127) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:114) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.cli.EnvironmentAwareCommand.execute(EnvironmentAwareCommand.java:67) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:122) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.cli.Command.main(Command.java:88) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:91) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:84) ~[elasticsearch-5.4.1.jar:5.4.1]
+Caused by: org.elasticsearch.http.BindHttpException: Failed to bind to [9300]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.bindAddress(Netty4HttpServerTransport.java:441) ~[?:?]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.createBoundHttpAddress(Netty4HttpServerTransport.java:342) ~[?:?]
+	at org.elasticsearch.http.netty4.Netty4HttpServerTransport.doStart(Netty4HttpServerTransport.java:319) ~[?:?]
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:69) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.node.Node.start(Node.java:737) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.bootstrap.Bootstrap.start(Bootstrap.java:277) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:359) ~[elasticsearch-5.4.1.jar:5.4.1]
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:123) ~[elasticsearch-5.4.1.jar:5.4.1]
+	... 6 more
+Caused by: java.net.BindException: 地址已在使用
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:433) ~[?:?]
+	at sun.nio.ch.Net.bind(Net.java:425) ~[?:?]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223) ~[?:?]
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:128) ~[?:?]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:554) ~[?:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1258) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:501) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:486) ~[?:?]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:980) ~[?:?]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:250) ~[?:?]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:365) ~[?:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403) ~[?:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:462) ~[?:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858) ~[?:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_171]
+[2018-05-27T21:12:05,425][INFO ][o.e.n.Node               ] [6dgoiBS] stopping ...
+[2018-05-27T21:12:05,443][INFO ][o.e.n.Node               ] [6dgoiBS] stopped
+[2018-05-27T21:12:05,444][INFO ][o.e.n.Node               ] [6dgoiBS] closing ...
+[2018-05-27T21:12:05,456][INFO ][o.e.n.Node               ] [6dgoiBS] closed
+[2018-05-27T21:12:49,689][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-05-27T21:12:49,759][INFO ][o.e.e.NodeEnvironment    ] [OyIudSP] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [7gb], net total_space [15.6gb], spins? [possibly], types [ext4]
+[2018-05-27T21:12:49,760][INFO ][o.e.e.NodeEnvironment    ] [OyIudSP] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-27T21:12:49,761][INFO ][o.e.n.Node               ] node name [OyIudSP] derived from node ID [OyIudSPHSLq2YV3Y9edfvA]; set [node.name] to override
+[2018-05-27T21:12:49,761][INFO ][o.e.n.Node               ] version[5.4.1], pid[4894], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.4.0-57-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-05-27T21:12:49,761][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/lihuijuan114/elasticsearch/elasticsearch-5.4.1.2]
+[2018-05-27T21:12:50,448][INFO ][o.e.p.PluginsService     ] [OyIudSP] loaded module [aggs-matrix-stats]
+[2018-05-27T21:12:50,449][INFO ][o.e.p.PluginsService     ] [OyIudSP] loaded module [ingest-common]
+[2018-05-27T21:12:50,449][INFO ][o.e.p.PluginsService     ] [OyIudSP] loaded module [lang-expression]
+[2018-05-27T21:12:50,449][INFO ][o.e.p.PluginsService     ] [OyIudSP] loaded module [lang-groovy]
+[2018-05-27T21:12:50,449][INFO ][o.e.p.PluginsService     ] [OyIudSP] loaded module [lang-mustache]
+[2018-05-27T21:12:50,449][INFO ][o.e.p.PluginsService     ] [OyIudSP] loaded module [lang-painless]
+[2018-05-27T21:12:50,449][INFO ][o.e.p.PluginsService     ] [OyIudSP] loaded module [percolator]
+[2018-05-27T21:12:50,449][INFO ][o.e.p.PluginsService     ] [OyIudSP] loaded module [reindex]
+[2018-05-27T21:12:50,449][INFO ][o.e.p.PluginsService     ] [OyIudSP] loaded module [transport-netty3]
+[2018-05-27T21:12:50,449][INFO ][o.e.p.PluginsService     ] [OyIudSP] loaded module [transport-netty4]
+[2018-05-27T21:12:50,450][INFO ][o.e.p.PluginsService     ] [OyIudSP] no plugins loaded
+[2018-05-27T21:12:51,650][INFO ][o.e.d.DiscoveryModule    ] [OyIudSP] using discovery type [zen]
+[2018-05-27T21:12:52,112][INFO ][o.e.n.Node               ] initialized
+[2018-05-27T21:12:52,112][INFO ][o.e.n.Node               ] [OyIudSP] starting ...
+[2018-05-27T21:12:52,381][INFO ][o.e.t.TransportService   ] [OyIudSP] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-05-27T21:12:52,397][WARN ][o.e.b.BootstrapChecks    ] [OyIudSP] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-27T21:12:52,398][WARN ][o.e.b.BootstrapChecks    ] [OyIudSP] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-27T21:12:55,470][INFO ][o.e.c.s.ClusterService   ] [OyIudSP] new_master {OyIudSP}{OyIudSPHSLq2YV3Y9edfvA}{5ySP_jEkTaaIpWlizzIvuQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-27T21:12:55,508][INFO ][o.e.g.GatewayService     ] [OyIudSP] recovered [0] indices into cluster_state
+[2018-05-27T21:12:55,515][INFO ][o.e.h.n.Netty4HttpServerTransport] [OyIudSP] publish_address {127.0.0.1:9301}, bound_addresses {[::1]:9301}, {127.0.0.1:9301}
+[2018-05-27T21:12:55,520][INFO ][o.e.n.Node               ] [OyIudSP] started
+[2018-05-27T21:18:01,100][INFO ][o.e.n.Node               ] [OyIudSP] stopping ...
+[2018-05-27T21:18:01,478][INFO ][o.e.n.Node               ] [OyIudSP] stopped
+[2018-05-27T21:18:01,478][INFO ][o.e.n.Node               ] [OyIudSP] closing ...
+[2018-05-27T21:18:01,675][INFO ][o.e.n.Node               ] [OyIudSP] closed

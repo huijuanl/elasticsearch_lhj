@@ -1,0 +1,3 @@
+[2018-05-28T01:44:24,094][WARN ][o.e.m.j.JvmGcMonitorService] [node-1] [gc][young][15701][3] duration [5.7s], collections [1]/[6.7s], total [5.7s]/[5.8s], memory [306.6mb]->[153.9mb]/[1.9gb], all_pools {[young] [266.2mb]->[814.3kb]/[266.2mb]}{[survivor] [32mb]->[25.2mb]/[33.2mb]}{[old] [8.4mb]->[127.9mb]/[1.6gb]}
+[2018-05-28T01:44:24,350][WARN ][o.e.m.j.JvmGcMonitorService] [node-1] [gc][15701] overhead, spent [5.7s] collecting in the last [6.7s]
+[2018-05-28T16:55:03,104][INFO ][o.e.m.j.JvmGcMonitorService] [node-1] [gc][70293] overhead, spent [327ms] collecting in the last [1s]

@@ -1,0 +1,27 @@
+[2018-05-27T21:22:00,996][INFO ][o.e.n.Node               ] [node-1] initializing ...
+[2018-05-27T21:22:01,135][INFO ][o.e.e.NodeEnvironment    ] [node-1] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [7gb], net total_space [15.6gb], spins? [possibly], types [ext4]
+[2018-05-27T21:22:01,136][INFO ][o.e.e.NodeEnvironment    ] [node-1] heap size [1.9gb], compressed ordinary object pointers [true]
+[2018-05-27T21:22:01,138][INFO ][o.e.n.Node               ] [node-1] node name [node-1], node ID [JaYGh04YS8imFWjWEunCZw]
+[2018-05-27T21:22:01,139][INFO ][o.e.n.Node               ] [node-1] version[5.4.1], pid[5235], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.4.0-57-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_171/25.171-b11]
+[2018-05-27T21:22:01,139][INFO ][o.e.n.Node               ] [node-1] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/lihuijuan114/elasticsearch/elasticsearch-5.4.1.2]
+[2018-05-27T21:22:02,274][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [aggs-matrix-stats]
+[2018-05-27T21:22:02,274][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [ingest-common]
+[2018-05-27T21:22:02,274][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-expression]
+[2018-05-27T21:22:02,274][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-groovy]
+[2018-05-27T21:22:02,274][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-mustache]
+[2018-05-27T21:22:02,275][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [lang-painless]
+[2018-05-27T21:22:02,275][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [percolator]
+[2018-05-27T21:22:02,275][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [reindex]
+[2018-05-27T21:22:02,275][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty3]
+[2018-05-27T21:22:02,275][INFO ][o.e.p.PluginsService     ] [node-1] loaded module [transport-netty4]
+[2018-05-27T21:22:02,276][INFO ][o.e.p.PluginsService     ] [node-1] no plugins loaded
+[2018-05-27T21:22:03,956][INFO ][o.e.d.DiscoveryModule    ] [node-1] using discovery type [zen]
+[2018-05-27T21:22:04,461][INFO ][o.e.n.Node               ] [node-1] initialized
+[2018-05-27T21:22:04,461][INFO ][o.e.n.Node               ] [node-1] starting ...
+[2018-05-27T21:22:04,633][INFO ][o.e.t.TransportService   ] [node-1] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-05-27T21:22:04,644][WARN ][o.e.b.BootstrapChecks    ] [node-1] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2018-05-27T21:22:04,644][WARN ][o.e.b.BootstrapChecks    ] [node-1] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-05-27T21:22:07,721][INFO ][o.e.c.s.ClusterService   ] [node-1] new_master {node-1}{JaYGh04YS8imFWjWEunCZw}{tdaGsO4IT7acl5x4KO2bkw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2018-05-27T21:22:07,787][INFO ][o.e.h.n.Netty4HttpServerTransport] [node-1] publish_address {127.0.0.1:9301}, bound_addresses {[::1]:9301}, {127.0.0.1:9301}
+[2018-05-27T21:22:07,787][INFO ][o.e.g.GatewayService     ] [node-1] recovered [0] indices into cluster_state
+[2018-05-27T21:22:07,791][INFO ][o.e.n.Node               ] [node-1] started
