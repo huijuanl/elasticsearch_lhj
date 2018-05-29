@@ -29,7 +29,7 @@ elasticesearch集群配置(以一个集群中有三个节点为例)
  cluster.name: 集群名（同一集群下的节点中的cluster.name必须相同）
  node.name: 节点名(唯一ID)
  node.master: true
- node.data: false
+ node.data: true(一般为true，表示索引分片可以分配到该节点上)
  http.port: 端口号(如9201,可用于http网页显示)
  transport.tcp.port:端口号(如 9202,这个的设置是节点之间互相ping通互相发现的前提)
  discovery.zen.ping_timeout:
@@ -84,3 +84,11 @@ this.base_uri = this.config.base_uri || this.prefs.get("app-base_uri") || "http:
 
 若页面有三个节点显示，且集群处于健康状态，说明启动成功.
 
+
+插入数据
+-----------------------
+在终端输入如下命令:
+```
+curl -XPOST http://localhost:9201/bigdata/product/ -d '{"author" : "Doug Cutting"}'
+```
+执行之后，刷新浏览器localhost:9100页面，发现创建了索引bigdata,默认有6个分片(其中3个属于主分片，3个属于副本分片），且这6个分片随机分配到3个节点上

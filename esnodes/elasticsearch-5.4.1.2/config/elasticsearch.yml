@@ -22,7 +22,7 @@
 #
  node.name: node-1
  node.master: true
- node.data: false
+ node.data: true
 #
 # Add custom attributes to the node:
 #
